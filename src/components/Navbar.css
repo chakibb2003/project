@@ -168,4 +168,14 @@
     display: block;
     z-index: 101;
   }
+
+  .logo-img {
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    height: 38px;
+  }
 }

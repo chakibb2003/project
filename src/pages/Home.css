@@ -5,11 +5,11 @@
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 700px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .hero-background {
@@ -372,7 +372,8 @@ section {
 
 @media (max-width: 768px) {
   .hero {
-    padding-top: 100px;
+    padding-top: 140px;
+    align-items: flex-start;
   }
   
   .hero-content {
